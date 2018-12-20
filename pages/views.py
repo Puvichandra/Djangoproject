@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-def home(request):
+def index(request):
 	return render(request,"home.html",{})
 	#my_name="Hello I am Chandrasekar"
 	#return render(request,"home.html",{"Puvi":my_name})
